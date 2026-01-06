@@ -59,3 +59,10 @@ AddButton(Tab2o, {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Luongdaynetroi/ScriptTongHop/refs/heads/main/.lua"))()
  end
  })
+
+AddButton(Tab2o, {
+     Name = "script hop sv full moon",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xSync-gg/VisionX/refs/heads/main/Server_Finder.lua"))()
+ end
+ })
