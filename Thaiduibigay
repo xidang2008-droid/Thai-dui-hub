@@ -79,7 +79,7 @@ loadstring(game:HttpGet("https://pastefy.app/XCtZsGhP/raw"))()
 AddButton(Tab3o, {
      Name = "sonic v2",
     Callback = function()
-loadstring(game:HttpGet("https://pastefy.app/XCtZsGhP/raw"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Azizanzz0/FE-R15-Sonic-X-Super/refs/heads/main/Protected%20SonicXSuper.txt"))()
  end
  })
 
