@@ -76,6 +76,13 @@ loadstring(game:HttpGet("https://pastefy.app/XCtZsGhP/raw"))()
  end
  })
 
+AddButton(Tab3o, {
+     Name = "sonic v2",
+    Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/XCtZsGhP/raw"))()
+ end
+ })
+
 AddButton(Tab4o, {
      Name = "KJ Five Seasons",
     Callback = function()
