@@ -70,6 +70,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/xSync-gg/VisionX/refs
  end
  })
 
+AddButton(Tab2o, {
+     Name = "X8 luck",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ytzeno99/bufflucky/refs/heads/main/LucKyRadomFruit.lua"))()
+ end
+ })
+
 AddButton(Tab3o, {
      Name = "sonic",
     Callback = function()
