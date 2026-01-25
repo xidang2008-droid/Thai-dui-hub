@@ -63,6 +63,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFr
   end
   })
 
+AddButton(Tab1o, {
+     Name = "trẩu hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/traurobloxdeptrai/traukhoaito/refs/heads/main/traurobloxv8.lua"))()
+  end
+  })
+
 AddButton(Tab2o, {
      Name = "script thiếu key imspiderman",
     Callback = function()
