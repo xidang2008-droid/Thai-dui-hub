@@ -56,6 +56,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/
   end
   })
 
+AddButton(Tab1o, {
+     Name = "OMG hub có key",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
+  end
+  })
+
 AddButton(Tab2o, {
      Name = "script thiếu key imspiderman",
     Callback = function()
