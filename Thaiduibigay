@@ -70,6 +70,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/traurobloxdeptrai/tra
   end
   })
 
+AddButton(Tab1o, {
+     Name = "blue x hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
+
 AddButton(Tab2o, {
      Name = "script thiếu key imspiderman",
     Callback = function()
@@ -92,7 +99,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Ytzeno99/bufflucky/re
  })
 
 AddButton(Tab2o, {
-     Name = "X8 luck",
+     Name = "PVP",
     Callback = function()
 local script_mode = "PVP" -- PVP, FARM
 local loader = loadstring
