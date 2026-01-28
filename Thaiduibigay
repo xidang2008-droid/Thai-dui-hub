@@ -91,6 +91,17 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Ytzeno99/bufflucky/re
  end
  })
 
+AddButton(Tab2o, {
+     Name = "X8 luck",
+    Callback = function()
+local script_mode = "PVP" -- PVP, FARM
+local loader = loadstring
+local url = "https://raw.githubusercontent.com/hermanos-dev/hermanos-hub/refs/heads/main/Loader.lua"
+local response = game:HttpGet(url)
+loader(response)()
+ end
+ })
+
 AddButton(Tab3o, {
      Name = "sonic",
     Callback = function()
